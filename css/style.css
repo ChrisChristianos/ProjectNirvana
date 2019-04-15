@@ -1,0 +1,94 @@
+body{
+	background:#202021;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.4em;
+	padding:0;
+	margin:0;
+	}
+
+/* Header */
+header{
+	background:#202021;
+	color:#e2dd6c;
+	padding-top:50px;
+	}
+
+header #name{
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	font-size:100px;
+	letter-spacing: 10px;
+	}
+
+header #leftimg{
+	width:360px;
+	float:left;
+	margin-top:-150px;
+	margin-left:150px;
+}
+
+header #rightimg{
+	width:360px;
+	float:right;
+	margin-top:-150px;
+	margin-right:150px;
+}
+
+/* Navigation */
+nav ul{
+	margin-top:100px;
+	list-style: none;
+	text-align:center;
+	}	
+
+nav li{
+	margin-left: 20px;
+	padding:20px 30px 20px 30px;
+	display:inline;
+	border-top: 3px #a5473d solid;
+	border-bottom: 3px #a5473d solid; 
+	}
+
+nav a{
+	text-decoration: none!important;
+	font-size:20px;
+	color:#e2dd6c;
+	}
+
+nav .current{
+	background:#4f4f3a;
+	color:#e8491d;
+	font-weight:bold;
+	border-top: 3px #71964c solid;
+	border-bottom: 3px #71964c solid;
+	}
+
+/* Main Image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:45%;
+  margin-top:80px;
+	}
+
+/* Boxes */ 
+#boxes{
+  margin-top:10%;
+	}
+
+#boxes .box{
+	border:3px yellow solid;
+	float:left;
+  	text-align: center;
+  	width:400px;
+  	padding:10px;
+  	margin-left:150px;
+  	margin-bottom:20px;
+	}
+
+#boxes .box img{
+	width:380px;
+}
